@@ -1,0 +1,285 @@
+        * {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .arealinksmenu {
+            display: flex;
+            justify-content: center;
+            height: 90px;
+            border: 1px solid hidden;
+            background-color: rgb(123, 123, 219);
+            align-items: center;
+        }
+        
+        .linksmenu {
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 50px;
+            background-color: rgb(123, 123, 219);
+            padding: 8px;
+        }
+        
+        .linksmenu:hover {
+            background: rgb(80, 80, 207);
+            border-radius: 50px;
+        }
+        
+        .imgbusca {
+            float: left;
+        }
+        
+        .areafim {
+            border: 1px solid;
+            height: 350px;
+        }
+        
+        .social {
+            width: 100px;
+        }
+        
+        .menu1 {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(200, 200, 241);
+            padding-bottom: 15px;
+            margin: 0px;
+            transition: 5s;
+        }
+        
+        .menu1:hover {
+            background-color: rgb(118, 230, 187);
+            color: white;
+        }
+        
+        .imgmain {
+            float: left;
+            border-radius: 100px;
+            margin-right: 8px;
+        }
+        
+        .arealogo {
+            border: 1px solid hidden;
+            padding-top: 10px;
+        }
+        
+        .areasocial {
+            width: 250px;
+            border: 1px solid hidden;
+            text-align: center;
+        }
+        
+        .imgredes {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 10px;
+            padding-right: 15px;
+            align-items: center;
+        }
+        
+        .imgsocial {
+            height: 30px;
+            width: 30px;
+            padding-left: 15px;
+            padding-top: 10px;
+        }
+        
+        .areadebusca {
+            padding-left: 50px;
+        }
+        
+        .face,
+        .insta {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .face,
+        .insta {
+            color: white;
+        }
+        /*container do meio da pagina*/
+        
+        .area2 {
+            border: 1px solid hidden;
+            display: flex;
+            padding-top: 40px;
+            margin-bottom: 20px;
+            margin-top: 0px;
+            background-color: rgb(200, 200, 241);
+        }
+        
+        .introdução {
+            padding: 40px;
+            text-align: center;
+            margin-right: 30px;
+            margin-left: 10px;
+        }
+        
+        .form {
+            background-color: rgb(69, 108, 180);
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            margin-right: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .quebra {
+            margin-bottom: 15px;
+            margin-top: 15px;
+            margin-left: 5px;
+            font-size: 13px;
+            padding-left: 2px;
+        }
+        
+        .areafoot {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 19px;
+            justify-content: center;
+            text-align: center;
+            background-color: rgb(118, 118, 201);
+        }
+        
+        .linksfoot {
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            text-decoration: none;
+            background-color: rgb(118, 118, 201);
+        }
+        
+        .linksfinal {
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: rgb(118, 118, 201);
+        }
+        
+        .canaislinks {
+            background-color: rgb(118, 118, 201);
+        }
+        
+        .canais {
+            background-color: rgb(118, 118, 201);
+        }
+        
+        h3 {
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: white;
+        }
+        
+        .imgfooter {
+            margin-right: 15px;
+        }
+        /* media query,não mecha em nada pra não piorar
+        /*media query*/
+        
+        @media (max-width:600px) {
+            .area2 {
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .menu1 {
+                flex-wrap: wrap;
+            }
+            .imgredes,
+            h2 {
+                font-size: 10px;
+            }
+            .arealinksmenu {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                display: block;
+                flex-wrap: wrap;
+                padding-top: 15px;
+            }
+            .linksmenu {
+                font-size: 20px;
+                margin-left: 5px;
+                padding-top: 0px;
+                margin-top: 5px;
+            }
+            .nav {
+                display: block;
+                width: 50%;
+                font-size: 12px;
+            }
+            .areadebusca {
+                padding-left: 5px;
+                padding: 5px;
+                margin: 10px;
+            }
+            .busque {
+                width: 100px;
+                float: left;
+                margin-right: 8px
+            }
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+            .form {
+                margin: 30px 20px 30px 20px;
+                display: flex;
+            }
+            fieldset {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                text-align: center;
+                margin: auto;
+            }
+            label {
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                padding-top: 5px;
+                padding-bottom: 8px;
+                background-color: rgb(101, 101, 231)
+            }
+            .inputclass {
+                text-align: center;
+                border-radius: 14px;
+                border: 1px solid;
+            }
+            legend {
+                font-weight: bold white;
+            }
+            .quebra {
+                margin-bottom: 1px;
+                margin-top: 1px;
+            }
+            .submit {
+                width: 120px;
+                margin: auto;
+            }
+            .areafoot {
+                display: flex;
+                justify-content: center;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .linksfoot {
+                display: flex;
+                justify-content: center;
+            }
+            .imgfooter {
+                width: 30px;
+            }
+            nav {
+                text-align: center;
+            }
+            .imgmain {
+                margin-left: 10px;
+            }
+        }
